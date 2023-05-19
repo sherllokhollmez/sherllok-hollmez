@@ -1,2 +1,0 @@
-# sherllok-hollmez
-معرض صور
