@@ -1,0 +1,257 @@
+/*  هذا الكود * خاص بجميييع الصفحة وداخل الكود قلت له ان يحذف الهوامش والفراغات التي يضعها المتصفح تلقائيا */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* هذا الكود خاص بتغير شكل الخط في صفحتنا */
+html {
+    font-size: 16px;
+}
+body
+{
+
+    background: #091021;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* وهذا الكود خاص بالصفحة الاولى في الموقع*/
+.Home {
+    background: #091021;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+footer{
+  display: flex;
+  
+
+}
+p{
+    margin-left: 48%;
+text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+ h1 {
+    font-size: 3rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    color: rgb(252, 252, 252);
+    transition: 0.6s;
+    margin-top: 20px;
+
+}
+
+h6:hover {
+    text-shadow: 0 0 20px #ffc000,0 0 40px #ffc000,0 0 60px #ffc000;
+
+    color: #ffc000;
+    transition: 0.6s;
+
+    
+
+}
+
+
+
+h6 {
+    margin-right: 410px;
+    margin-top: 20px;
+
+    font-size: 3rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    transition: 0.6s;
+
+    color: #ce9f11;
+    box-shadow: 0cap;
+
+}
+header{
+    z-index: 9999;
+    display: flex;
+    position: fixed;
+    box-shadow: 0 0 20px #000000,0 0 40px #000000,0 0 60px #000000;
+    background: #091021;
+    width: 100%;
+   
+}
+nav {
+    
+    padding-top: 2.2rem;
+    padding-left: 8%;
+    padding-right: 8%;
+    justify-content: space-between;
+    transition: 0.6s;
+
+}
+
+/*تكبير عنوان الموقع*/
+nav ul li {
+
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.8rem 1.5rem
+
+}
+nav ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: 0.6s;
+
+}
+nav ul li a:hover {
+    text-shadow: 0 0 20px #ffc000,0 0 40px #ffc000,0 0 60px #ffc000;
+background-color:#142142;
+    color: #ffc000;
+   
+
+}
+
+
+
+.btn {
+font-size: 15px;
+    background-color: #ce9f11;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.90rem 2rem;
+    border-radius: 20px;
+    transition: 0.6s;
+    border: 2px solid transparent;
+}
+.btns {
+    display: flex;
+    margin-right: 600px;
+
+    align-items: center;
+    gap: 20px;
+    margin-left: 0px;
+}
+.bnts a {
+        align-items: center;
+
+        margin: 0 8px;
+
+}
+
+.btn:hover {
+    background: #ffc000;
+   
+    box-shadow: 0 0 20px #ffc000,0 0 40px #ffc000,0 0 60px #ffc000;
+
+
+
+}
+.P1 {
+    
+    flex-grow: 1;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+
+
+}
+.P1-text {
+    margin: 130px;
+    margin-left: 0px;
+    margin-bottom: 80px;
+    margin-right: 0px;
+
+    color: aliceblue;
+    position: relative;
+
+}
+.P1-text h1 {
+
+
+    font-size: 5rem;
+    margin: 1.7rem 0;
+}
+.P1-text h2 {
+
+
+    margin: 1.7rem 0;
+
+}
+.P1-text h3 {
+
+
+    margin: 1.7rem 0;
+
+}
+.P1-text h4 {
+
+
+    margin: 1.7rem 0;
+
+}
+
+section {
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.Gallery1 {
+
+
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    overflow: hidden;
+
+
+
+}
+.Gallery2 {
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.about{
+    
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    overflow: hidden;
+
+}
+.contact{
+    
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    overflow: hidden;
+
+}
+figcaption{
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.12rem;
+    color: rgb(252, 252, 252);
+    transition: 0.6s;
+    margin-top: 20px;
+    text-decoration: none;
+   
+}
+
